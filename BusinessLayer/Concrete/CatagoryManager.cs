@@ -35,6 +35,7 @@ namespace BusinessLayer.Concrete
         public List<Category> GetAllCategories()
         {
             return efCategoryRepository.GetListAll();
+            //deneme çalışma
         }
 
         public Category GetCategoryById(int id)
